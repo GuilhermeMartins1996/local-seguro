@@ -13,7 +13,7 @@
     String vObservacao = request.getParameter("observacao");
 
     //criar as variaveis para acessar o banco de dados
-    String database = "saveit";
+    String database = "projeto";
     String endereco = "jdbc:mysql://localhost:3306/" + database ;
     String usuario = "root";
     String senha = "";
